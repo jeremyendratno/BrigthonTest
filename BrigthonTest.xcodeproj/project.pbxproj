@@ -25,6 +25,7 @@
 		320D6E4A277AB9EE00C0EB17 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D6E49277AB9EE00C0EB17 /* HomeViewModel.swift */; };
 		320D6E4D277ABEE600C0EB17 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D6E4C277ABEE600C0EB17 /* DetailViewModel.swift */; };
 		320D6E4F277AC6D300C0EB17 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320D6E4E277AC6D300C0EB17 /* FavoriteViewModel.swift */; };
+		320D6E51277AD7B800C0EB17 /* ImageForRepo in Resources */ = {isa = PBXBuildFile; fileRef = 320D6E50277AD7B800C0EB17 /* ImageForRepo */; };
 		9FB6D82B171C42876744CFE1 /* Pods_BrigthonTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C227C96668C240869AE0058 /* Pods_BrigthonTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		320D6E49277AB9EE00C0EB17 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		320D6E4C277ABEE600C0EB17 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		320D6E4E277AC6D300C0EB17 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
+		320D6E50277AD7B800C0EB17 /* ImageForRepo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ImageForRepo; path = BrigthonTest/ImageForRepo; sourceTree = SOURCE_ROOT; };
 		D83DC24175B22A8E2A55B2E0 /* Pods-BrigthonTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrigthonTest.release.xcconfig"; path = "Target Support Files/Pods-BrigthonTest/Pods-BrigthonTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 				320D6E1F277AA72500C0EB17 /* ViewController.swift */,
 				320D6E21277AA72500C0EB17 /* Main.storyboard */,
 				320D6E24277AA72600C0EB17 /* Assets.xcassets */,
+				320D6E50277AD7B800C0EB17 /* ImageForRepo */,
 				320D6E26277AA72600C0EB17 /* LaunchScreen.storyboard */,
 				320D6E29277AA72600C0EB17 /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				320D6E3C277AAC4900C0EB17 /* DetailViewController.xib in Resources */,
 				320D6E25277AA72600C0EB17 /* Assets.xcassets in Resources */,
 				320D6E41277AB17900C0EB17 /* FavoriteViewController.xib in Resources */,
+				320D6E51277AD7B800C0EB17 /* ImageForRepo in Resources */,
 				320D6E23277AA72500C0EB17 /* Main.storyboard in Resources */,
 				320D6E31277AA87900C0EB17 /* HomeViewController.xib in Resources */,
 				320D6E38277AA8F000C0EB17 /* HomeCell.xib in Resources */,

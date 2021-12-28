@@ -79,7 +79,9 @@ extension HomeViewController: UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         viewModel.filmListData.removeAll()
         homeTableView.reloadData()
-        viewModel.getFilmListDataBySearch(search: searchBar.text ?? "")
+        let search = searchBar.text
+        let newSearch = search?.lowercased().replacingOccurrences(of: " ", with: "+")
+        viewModel.getFilmListDataBySearch(search: newSearch ?? "")
     }
 }
 
