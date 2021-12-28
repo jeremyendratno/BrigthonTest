@@ -3,6 +3,8 @@
 Nice movie adalah aplikasi yang digunakan untuk melihat daftar film. Aplikasi ini dibangun menggunakan arsitekrur MVVM. 
 Adapun library yang digunakan yaitu SDWebImage.
 
+Note: Jangan lupa untuk pod install
+
 Berikut adalah tampilan - tampilan dari aplikasi:
 
 <p align="center">
