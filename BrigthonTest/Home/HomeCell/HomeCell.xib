@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeCell" id="9iL-4P-vHv" customClass="HomeCell" customModule="BrigthonTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9iL-4P-vHv" id="dvb-62-FJU">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OZM-Qp-sXT">
+                        <rect key="frame" x="10" y="10" width="88.5" height="118"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="118" id="byn-Vd-kM7"/>
+                            <constraint firstAttribute="width" secondItem="OZM-Qp-sXT" secondAttribute="height" multiplier="1.5:2" id="tkV-w6-eje"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Captain America: The First Avanger" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6A-XE-1yh">
+                        <rect key="frame" x="118.5" y="10" width="285.5" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2011" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fhw-Uc-oNy">
+                        <rect key="frame" x="118.5" y="40.5" width="275.5" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fhw-Uc-oNy" firstAttribute="leading" secondItem="OZM-Qp-sXT" secondAttribute="trailing" constant="20" id="Bth-ow-3qF"/>
+                    <constraint firstAttribute="trailing" secondItem="Q6A-XE-1yh" secondAttribute="trailing" constant="10" id="Dkl-XM-Fu7"/>
+                    <constraint firstItem="OZM-Qp-sXT" firstAttribute="leading" secondItem="dvb-62-FJU" secondAttribute="leading" constant="10" id="GIt-Y5-bMq"/>
+                    <constraint firstAttribute="bottom" secondItem="OZM-Qp-sXT" secondAttribute="bottom" constant="10" id="XMO-hK-9AW"/>
+                    <constraint firstItem="Q6A-XE-1yh" firstAttribute="leading" secondItem="OZM-Qp-sXT" secondAttribute="trailing" constant="20" id="a0u-qb-HuP"/>
+                    <constraint firstItem="Q6A-XE-1yh" firstAttribute="top" secondItem="dvb-62-FJU" secondAttribute="top" constant="10" id="bgR-mJ-18A"/>
+                    <constraint firstAttribute="trailing" secondItem="Fhw-Uc-oNy" secondAttribute="trailing" constant="20" id="dVi-IE-IuN"/>
+                    <constraint firstItem="Fhw-Uc-oNy" firstAttribute="top" secondItem="Q6A-XE-1yh" secondAttribute="bottom" constant="10" id="r9S-cc-97w"/>
+                    <constraint firstItem="OZM-Qp-sXT" firstAttribute="top" secondItem="dvb-62-FJU" secondAttribute="top" constant="10" id="tW7-Vq-lYO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="filmImageView" destination="OZM-Qp-sXT" id="K4a-7X-6FZ"/>
+                <outlet property="titleLabel" destination="Q6A-XE-1yh" id="ryL-Dz-Cru"/>
+                <outlet property="yearLabel" destination="Fhw-Uc-oNy" id="acO-Ee-V2z"/>
+            </connections>
+            <point key="canvasLocation" x="316" y="56"/>
+        </tableViewCell>
+    </objects>
+</document>
